@@ -24,21 +24,7 @@
   }
   
   /* Header */
-  header::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.173); /* Dark overlay */
-    z-index: 0;
-  }
   
-  header nav {
-    position: relative;
-    z-index: 1;
-  }
   header {
     background-image: url('group.webp'); /* Replace with your actual image path */
     background-size: cover;
